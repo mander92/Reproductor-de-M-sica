@@ -112,7 +112,6 @@ audio.addEventListener('timeupdate', (e) => {
 
     let currentMinutes = Math.floor(currentTime / 60);
     let currentSeconds = Math.floor(currentTime % 60);
-    console.log(currentSeconds);
 
     if (currentSeconds < 10) {
         currentSeconds = `0${currentSeconds}`;
